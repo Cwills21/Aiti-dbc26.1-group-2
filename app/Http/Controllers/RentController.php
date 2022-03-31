@@ -27,10 +27,11 @@ class RentController extends Controller
 
     public function saveRent(Request $request)
     {
-            $Customer = DB::table('customers')            
-                 ->where('user_id', '=', Auth::user()->id)
-                 ->first();
-            $Customer_id = $Customer->id;
+            // $Customer = DB::table('customers')            
+            //      ->where('user_id', '=', Auth::user()->id)
+            //      ->first();
+            // $Customer_id = $Customer->id;
+            $Customer_id =  Auth::user()->customer->id;
             
             $newCar = DB::table('cars')
             ->where('id', '=', $request->input('car_id'))
@@ -81,12 +82,9 @@ class RentController extends Controller
         return redirect('/rent/pending');
         }
 
-        public function myTransactions(){
-
-            $Customer = DB::table('customers')            
-                 ->where('user_id', '=', Auth::user()->id)
-                 ->first();
-            $Customer_id = $Customer->id;
+        public function myTransactions(){        
+             
+            $Customer_id =  Auth::user()->customer->id;
 
             $Transactions = DB::table('rents')
             ->join('cars', 'rents.car_id', '=', 'cars.id')
