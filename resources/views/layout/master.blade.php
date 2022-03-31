@@ -72,7 +72,7 @@
                             <a style="background:#17a2b8; color:white" href="{{route('AddProfile')}}">Profile</a>
                         </li>
                         <li>
-                            <a style="background:#17a2b8; color:white" href="#">Transactions</a>
+                            <a style="background:#17a2b8; color:white" href="#">My Transactions</a>
                         </li>                        
                     </ul>
                 </li>
