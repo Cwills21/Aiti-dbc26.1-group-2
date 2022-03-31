@@ -9,6 +9,7 @@ use App\Models\Customer;
 use Illuminate\Support\Facades\DB;
 class RentController extends Controller
 {
+   
     public function showRentCarPage($id){
         $Customer = DB::table('customers')            
                  ->where('user_id', '=', Auth::user()->id)
@@ -79,5 +80,22 @@ class RentController extends Controller
         session()->flash('alert', 'Transaction Cancelled');
         return redirect('/rent/pending');
         }
+
+        public function myTransactions(){
+
+            $Customer = DB::table('customers')            
+                 ->where('user_id', '=', Auth::user()->id)
+                 ->first();
+            $Customer_id = $Customer->id;
+
+            $Transactions = DB::table('rents')
+            ->join('cars', 'rents.car_id', '=', 'cars.id')
+            ->where('rents.customer_id', '=', $Customer_id)
+            ->select('rents.*', 'cars.car_brand','cars.car_model', 'cars.car_no')
+            ->get();              
+            return view('rents.mytransactions')       
+            ->with('Transaction', $Transactions);          
+        }
+
 
 }

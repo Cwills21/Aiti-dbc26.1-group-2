@@ -50,6 +50,7 @@ Route::prefix('/rent')->group(function(){
     Route::get('/{id}/rent', [RentController::class, 'showRentCarPage'])->name('rentCar');
     Route::post('/', [RentController::class, 'saveRent'])->name('saveRent');
     Route::get('/pending', [RentController::class, 'showPendingRent'])->name('PendingRent')->middleware(['auth']);
+    Route::get('/MyTrans', [RentController::class, 'myTransactions'])->name('MyTrans')->middleware(['auth']);
     Route::get('/{id}/approve', [RentController::class, 'approveRent'])->name('approveRent')->middleware(['auth']);
     Route::get('/{id}/decline', [RentController::class, 'declineRent'])->name('declineRent')->middleware(['auth']);
     });
