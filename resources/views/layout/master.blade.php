@@ -69,7 +69,7 @@
                     <a href="#clientSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white" style="background:#17a2b8; color:white">My Account</a>
                     <ul class="collapse list-unstyled" id="clientSubmenu">
                         <li>
-                            <a style="background:#17a2b8; color:white" href="{{route('AddProfile')}}">Profile</a>
+                            <a style="background:#17a2b8; color:white" href="{{route('AddProfile', ['id' => Auth::User()->id])}}">Profile</a>
                         </li>
                         <li>
                             <a style="background:#17a2b8; color:white" href="{{route('MyTrans')}}">My Transactions</a>

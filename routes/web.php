@@ -49,17 +49,20 @@ Route::prefix('/admin')->group(function(){
 Route::prefix('/rent')->group(function(){
     Route::get('/{id}/rent', [RentController::class, 'showRentCarPage'])->name('rentCar');
     Route::post('/', [RentController::class, 'saveRent'])->name('saveRent');
-    Route::get('/pending', [RentController::class, 'showPendingRent'])->name('PendingRent')->middleware(['auth']);
     Route::get('/MyTrans', [RentController::class, 'myTransactions'])->name('MyTrans')->middleware(['auth']);
+    Route::get('/pending', [RentController::class, 'showPendingRent'])->name('PendingRent')->middleware(['auth']);
     Route::get('/{id}/approve', [RentController::class, 'approveRent'])->name('approveRent')->middleware(['auth']);
     Route::get('/{id}/decline', [RentController::class, 'declineRent'])->name('declineRent')->middleware(['auth']);
     });
 
 //Customers
-    Route::get('/customers', [CustomerController::class, 'showAllCustomers'])->name('showCustomers')->middleware(['auth']);
-    Route::get('/customers/add', [CustomerController::class, 'showAddCustomerPage'])->name('AddProfile');
-    Route::get('/customers/{id}/edit', [CustomerController::class, 'showEditCustomerPage'])->name('updateCustomer');
-    Route::post('/customers', [CustomerController::class, 'saveCustomer'])->name('saveCustomer');
-    Route::put('/customers', [CustomerController::class, 'updateCustomer']);
-    Route::delete('/customers', [CustomerController::class, 'deleteCustomer'])->name('deleteCustomer');
+Route::get('/customers', [CustomerController::class, 'showAllCustomers'])->name('showCustomers')->middleware(['auth']);
+Route::get('/{id}/customers/add', [CustomerController::class, 'showAddCustomerPage'])->name('AddProfile');
+
+Route::get('/customers/{id}/edit', [CustomerController::class, 'showEditCustomerPage'])->name('updateCustomer');
+Route::post('/customers', [CustomerController::class, 'saveCustomer'])->name('saveCustomer');
+Route::get('/profile', [CustomerController::class, 'showProfilePage'])->name('ProfilePage')->middleware(['auth']);
+Route::put('/customers', [CustomerController::class, 'updateCustomer']);
+Route::delete('/customers', [CustomerController::class, 'deleteCustomer'])->name('deleteCustomer');
+
 
