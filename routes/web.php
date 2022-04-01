@@ -56,12 +56,10 @@ Route::prefix('/rent')->group(function(){
     });
 
 //Customers
-Route::get('/customers', [CustomerController::class, 'showAllCustomers'])->name('showCustomers')->middleware(['auth']);
-Route::get('/customers/add', [CustomerController::class, 'showAddCustomerPage'])->name('AddProfile');
-// Route::get('/courses/{id}', [CourseController::class, 'showOneCourse'])->name('viewCourse');
-
-Route::get('/customers/{id}/edit', [CustomerController::class, 'showEditCustomerPage'])->name('updateCustomer');
-Route::post('/customers', [CustomerController::class, 'saveCustomer'])->name('saveCustomer');
-Route::put('/customers', [CustomerController::class, 'updateCustomer']);
-Route::delete('/customers', [CustomerController::class, 'deleteCustomer'])->name('deleteCustomer');
+    Route::get('/customers', [CustomerController::class, 'showAllCustomers'])->name('showCustomers')->middleware(['auth']);
+    Route::get('/customers/add', [CustomerController::class, 'showAddCustomerPage'])->name('AddProfile');
+    Route::get('/customers/{id}/edit', [CustomerController::class, 'showEditCustomerPage'])->name('updateCustomer');
+    Route::post('/customers', [CustomerController::class, 'saveCustomer'])->name('saveCustomer');
+    Route::put('/customers', [CustomerController::class, 'updateCustomer']);
+    Route::delete('/customers', [CustomerController::class, 'deleteCustomer'])->name('deleteCustomer');
 

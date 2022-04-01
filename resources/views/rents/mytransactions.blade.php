@@ -26,9 +26,9 @@
           <td>{{$Trans->start_date}}</td>
           <td>{{$Trans->end_date}}</td>
           @if($Trans->approval_status=='Pending')
-          <td class="btn btn-danger pending">{{$Trans->approval_status}}</td> 
+          <td class="btn btn-xs btn-danger pending">{{$Trans->approval_status}}</td> 
           @else
-          <td class="btn">{{$Trans->approval_status}}</td> 
+          <td class="btn btn-xs btn-success">{{$Trans->approval_status}}</td> 
           @endif         
         </tr>
         @endforeach
