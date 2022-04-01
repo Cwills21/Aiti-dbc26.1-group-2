@@ -4,14 +4,25 @@ namespace App\Http\Controllers;
 
 use App\Models\Customer;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class CustomerController extends Controller
 {
-    public function showAddCustomerPage(){
-    return view('customers.customer-form')
-    ->with('customer', new Customer)
-    ->with('edit', false);
-    }
+    public function showAddCustomerPage($id){
+        $Customer = DB::table('customers')            
+                    ->where('user_id', '=', Auth::user()->id)
+                    ->first();
+           if(!$Customer){
+               return view('customers.customer-form')
+               ->with('customer', new Customer)
+               ->with('edit', false);
+           }else{
+          $customer = Customer::findOrFail($id);       
+           return view('customers.viewprofile')       
+            ->with('customer', $customer);
+           }
+        }
 
     public function showAllCustomers(Request $request) {
         $searchTerm = $request->query('search');
