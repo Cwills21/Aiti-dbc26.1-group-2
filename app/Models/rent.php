@@ -8,7 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Rent extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        'car_brand'
-    ];
 }
