@@ -8,9 +8,9 @@ use App\Models\Car;
 class CarController extends Controller
 {
     public function welcome() {
-        $allCars = Car::paginate(10);
-        return view('welcome')
-                ->with('cars', $allCars);
+        // $allCars = Car::paginate(10);
+        return view('welcome');
+                // ->with('cars', $allCars);
     }
     public function dashbd(Request $request) {
         $searchTerm = $request->input('search');

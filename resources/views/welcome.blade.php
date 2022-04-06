@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="webthemez">
-    <title>Rolls Car Rental Bootstrap Website Template - WebThemez</title>
+    <title>DbC26.1 Group 2</title>
 	<!-- core CSS -->
     <link href="{{url('welcome/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{url('welcome/css/font-awesome.min.css')}}" rel="stylesheet">
