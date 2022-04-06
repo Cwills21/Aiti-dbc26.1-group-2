@@ -50,14 +50,19 @@
 	        <!-- <div class="container"> -->
 	            <div class="row">
 	                <div class="col section-1 section-description wow fadeIn">
-	                    <h1>The Best Place to rent a reliable but affordable car</h1>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                    <p>
-	                    	This is a free <strong>Car Rental App</strong>Developed by<strong>AITI CASE</strong>DBC26.1
-	                    	<strong>Group 2</strong> Members using Laravel
-	                    </p>
+	                    <h3>You can search your choice of car below</h3>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>	                   
 	                </div>
 	            </div>
+				<div class="mb-2 col-md-6">
+				 <form class="d-flex" method="GET" action="{{route('dashbd')}}">
+						<input class="form-control me-2" type="search"	name="search" placeholder="Search Car"aria-label="Search">	
+						
+						<div class="col-md-3">  
+						<button class="btn btn-outline-success" type="submit">Search</button>
+						</div>					 
+				 </form>
+				</div>
 	            <div class="row">
 				@foreach ($cars as $car)
                 	<div class="col-md-3 section-1-box wow fadeInUp">
@@ -76,134 +81,7 @@
 	        <!-- </div> -->
         </div>
 
-        <!-- Section 2 -->
-        <div class="section-2-container section-container section-container-gray-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col section-2 section-description wow fadeIn">
-	                </div>
-	            </div>
-	            <div class="row">
-	            	<div class="col section-2-box wow fadeInLeft">
-                    	<h3>Section 2</h3>
-                    	<p class="medium-paragraph">
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                    		sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.
-                    	</p>
-                    	<p>
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                    		Ut wisi enim ad minim veniam, quis nostrud. 
-                    		Exerci tation ullamcorper suscipit <a href="#">lobortis nisl</a> ut aliquip ex ea commodo consequat. 
-                    		Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl. 
-                    	</p>
-                    	<p>
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                    		Ut wisi enim ad minim veniam, quis nostrud. 
-                    		Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    	</p>
-	                </div>
-	            </div>
-	        </div>
-        </div>
-
-		<!-- Section 3 -->
-        <div class="section-3-container section-container">
-	        <div class="container">
-	        	
-	            <div class="row">
-	                <div class="col section-3 section-description wow fadeIn">
-	                    <h2>Section 3</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-	            
-	            <div class="row">
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fas fa-paperclip"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Ut wisi enim ad minim</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fas fa-pencil-alt"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Sed do eiusmod tempor</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-	            
-	            <div class="row">
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fas fa-cloud"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Quis nostrud exerci tat</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fab fa-google"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Minim veniam quis nostrud</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-
-	        </div>
-        </div>
-
-		<!-- Section 4 -->
-        <div class="section-4-container section-container section-container-image-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col section-4 section-description wow fadeInLeftBig">
-	                	<h2>Section 4</h2>
-	                    <p>
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-	                    	aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.
-	                    </p>
-	                </div>
-	            </div>
-	        </div>
-        </div>
+        
 
         <!-- Footer -->
         <footer class="footer-container">
@@ -212,7 +90,7 @@
 	        	<div class="row">
 	        		
                     <div class="col">
-                    	&copy; Bootstrap 4 Carousel with Multiple Items. Download it for free on <a href="https://azmind.com">AZMIND</a>.
+                    	&copy; Car Rental App by Aiti DbC26.1 Group2 <a href="">Our Link</a>
                     </div>
                     
                 </div>

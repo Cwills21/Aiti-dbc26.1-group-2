@@ -12,10 +12,20 @@ class CarController extends Controller
         return view('welcome')
                 ->with('cars', $allCars);
     }
-    public function dashbd() {
-        $allCars = Car::paginate(10);
+    public function dashbd(Request $request) {
+        $searchTerm = $request->input('search');
+        if($searchTerm == null){
+            $allCars = Car::paginate(10);
+        } else {
+        $allCars = Car::where('car_no','like', "%{$searchTerm}%")
+        ->orWhere('car_brand','like', "%{$searchTerm}%")
+        ->orWhere('car_model','like', "%{$searchTerm}%")
+        ->orWhere('year_of_reg','like', "%{$searchTerm}%")
+        ->paginate(10);
+        }
         return view('dashbd')
                 ->with('cars', $allCars);
+       
     }
     
     public function showAllCars() {
