@@ -7,15 +7,15 @@
     <meta name="author" content="webthemez">
     <title>DbC26.1 Group 2</title>
 	<!-- core CSS -->
-    <link href="{{url('welcome/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{url('welcome/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{url('welcome/css/animate.min.css')}}" rel="stylesheet">
-    <link href="{{url('welcome/css/owl.carousel.css')}}" rel="stylesheet">
-    <link href="{{url('welcome/css/owl.transitions.css')}}" rel="stylesheet">
-    <link href="{{url('welcome/css/prettyPhoto.css')}}" rel="stylesheet">  
-	<link href="{{url('welcome/css/magnific-popup.css')}}" rel="stylesheet">  
-	<link href="{{url('welcome/css/gallery-1.css')}}" rel="stylesheet">
-    <link href="{{url('welcome/css/styles.css')}}" rel="stylesheet"> 
+    <link href="{{asset('welcome/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('welcome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('welcome/css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('welcome/css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('welcome/css/owl.transitions.css')}}" rel="stylesheet">
+    <link href="{{asset('welcome/css/prettyPhoto.css')}}" rel="stylesheet">  
+	<link href="{{asset('welcome/css/magnific-popup.css')}}" rel="stylesheet">  
+	<link href="{{asset('welcome/css/gallery-1.css')}}" rel="stylesheet">
+    <link href="{{asset('welcome/css/styles.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -59,7 +59,7 @@
 
     <section id="main-slider">
         <div class="owl-carousel">
-            <div class="item" style="background-image: url(images/slider/bg1.jpg);">
+            <div class="item" style="background-image: asset(images/slider/bg1.jpg);">
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row"> 
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div><!--/.item-->
-             <div class="item" style="background-image: url(welcome/images/slider/bg2.jpg);">
+             <div class="item" style="background-image: asset(welcome/images/slider/bg2.jpg);">
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row"> 
@@ -660,7 +660,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2018 Company Name. <a href="https://webthemez.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Template</a> by WebThemez.com
+                    &copy; 2018 Company Name. <a href="" target="_blank">DBC26.1 Group2</a> dbcg2.com
                 </div>
                 <div class="col-sm-6">
                     <ul class="social-icons">
@@ -676,21 +676,21 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="{{url('welcome/js/jquery.js')}}"></script>
-    <script src="{{url('welcome/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('welcome/js/jquery.js')}}"></script>
+    <script src="{{asset('welcome/js/bootstrap.min.js')}}"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="{{url('welcome/js/owl.carousel.min.js')}}"></script>
-    <script src="{{url('welcome/js/mousescroll.js')}}"></script>
-    <script src="{{url('welcome/js/smoothscroll.js')}}"></script>
-    <script src="{{url('welcome/js/jquery.prettyPhoto.js')}}"></script> 
-    <script src="{{url('welcome/js/jquery.inview.min.js')}}"></script>
-    <script src="{{url('welcome/js/wow.min.js')}}"></script>
+    <script src="{{asset('welcome/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('welcome/js/mousescroll.js')}}"></script>
+    <script src="{{asset('welcome/js/smoothscroll.js')}}"></script>
+    <script src="{{asset('welcome/js/jquery.prettyPhoto.js')}}"></script> 
+    <script src="{{asset('welcome/js/jquery.inview.min.js')}}"></script>
+    <script src="{{asset('welcome/js/wow.min.js')}}"></script>
     <script src="contact/jqBootstrapValidation.js"></script>
     <script src="contact/contact_me.js"></script>
  
-    <script type="text/javascript" src="{{url('welcome/js/jquery.isotope.min.js')}}"></script><!-- Gallery Filter -->
-	<script type="text/javascript" src="{{url('welcome/js/jquery.magnific-popup.min.js')}}"></script><!-- Gallery Popup -->
+    <script type="text/javascript" src="{{asset('welcome/js/jquery.isotope.min.js')}}"></script><!-- Gallery Filter -->
+	<script type="text/javascript" src="{{asset('welcome/js/jquery.magnific-popup.min.js')}}"></script><!-- Gallery Popup -->
 	 
-    <script src="{{url('welcome/js/custom-scripts.js')}}"></script>
+    <script src="{{asset('welcome/js/custom-scripts.js')}}"></script>
 </body>
 </html>
