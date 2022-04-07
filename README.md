@@ -70,3 +70,4 @@ Group 2 members
 3. SAMUEL KWAMENA KOTOKU
 4. DAVID TETTEHFIO
 5. DEAN BEYIR
+  url = https://infinite-cliffs-60424.herokuapp.com
