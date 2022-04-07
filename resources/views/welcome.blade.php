@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                     </button>
 					<i class="fa fa-car" aria-hidden="true"></i>
-                    <div class="logoSection"> <a class="navbar-brand" href="index.html">Rolls</a>
+                    <div class="logoSection"> <a class="navbar-brand" href="index.html">DBC G2</a>
 					<span class="caption">Car Rental</span>
 					</div>
                 </div>
