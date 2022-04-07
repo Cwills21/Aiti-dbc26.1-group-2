@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="col-sm-9">
                     <h2>Best Car Rental In The City</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum. 
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.  -->
                     </p>
                 </div>
                 <div class="col-sm-3 text-right">
@@ -110,7 +110,7 @@
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <p class="text-center wow fadeInDown">WE PROVIDE THE BEST CARS FOR RENT IN ACCRA</p>
             </div>
 
             <div class="row">
@@ -138,7 +138,7 @@
 						</div>  
                             <div class="media-body">
                                 <h4 class="media-heading">Luxury Cars</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                                <p>Get Luxurios car for rent at affordable price</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -152,7 +152,7 @@
 						</div>  
                             <div class="media-body">
                                 <h4 class="media-heading">Insurance</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                <p>Our cars are comprehensively insured</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -167,7 +167,7 @@
 						</div>  
                             <div class="media-body">
                                 <h4 class="media-heading">Go Anywhere</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                <p>Reliable and strong cars that can take you anywhere without any fear</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -181,7 +181,7 @@
 						</div>   
                             <div class="media-body">
                                 <h4 class="media-heading">Flexi Packages</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                <p>Flexible payment plan for our loyal customers</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -195,7 +195,7 @@
 						</div>    
                             <div class="media-body">
                                 <h4 class="media-heading">24x7 Assistance</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
+                                <p>Our competent and hard working team is availabe to assist you</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -209,7 +209,7 @@
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">About Us</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <p class="text-center wow fadeInDown">We are the first and best car rental company from Aiti<br>We remain the market leaders in the industry</p>
             </div>
 
             <div class="row">
@@ -219,13 +219,9 @@
 
                 <div class="col-sm-6 wow fadeInRight">
                     <h3 class="column-title">We are Market Leader</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-
-                    <p>Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at. Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. </p>
-
-					<p>Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
-
-
+                    <p></p>
+                    <p></p>
+                    <p></p>                   
                     <a class="btn btn-primary" href="#">Learn More</a>
 
                 </div>
@@ -240,7 +236,7 @@
     	
 	   <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Cars</h2>
-                <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">We have all the cars you will wish for <br>Search for your choice</p>
             </div>
 			<div class="editContent">
 	            <ul class="filter">
@@ -269,7 +265,7 @@
 	                                <h5>1st gallery Item</h5>
                             	</div>
                             	<div class="editContent">
-	                                <p>Nullam id dolor id nibh ultricies vehicula.</p>
+	                                <p></p>
                             	</div>
                             </div>
                         </div>
@@ -288,7 +284,7 @@
                                 	<h5>2nd gallery Item</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p></p>
                             	</div>
                             </div>
                         </div>
@@ -307,7 +303,7 @@
                                 	<h5>3rd gallery Item</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p></p>
                             	</div>
                             </div>
                         </div>
@@ -326,7 +322,7 @@
                                 	<h5>4th gallery Item</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p></p>
                             	</div>
                             </div>
                         </div>
@@ -345,7 +341,7 @@
                                 	<h5>5th gallery Item</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p></p>
                             	</div>
                             </div>
                         </div>
@@ -364,7 +360,7 @@
                                 	<h5>6th gallery Item</h5>
                             	</div>
                             	<div class="editContent">
-                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                                	<p></p>
                             	</div>
                             </div>
                         </div>
@@ -385,8 +381,8 @@
     <section id="our-team">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">The Best Team</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <h2 class="section-title text-center wow fadeInDown">MEET THE EXCELLENT MIND BEHIND THE COMPANY</h2>
+                <p class="text-center wow fadeInDown">Our Company Continue to grow because we have the best team<br>Below are some of our competent team members</p>
             </div>
 
             <div class="row">
@@ -396,7 +392,7 @@
                             <img class="img-responsive" src="welcome/images/team/01.jpg" alt="">
                         </div>
                         <div class="team-info">
-                            <h3>John Deo</h3>
+                            <h3>Collins Wills</h3>
                             <span>CEO</span>
                         </div>  
                     </div>
@@ -407,7 +403,7 @@
                             <img class="img-responsive" src="welcome/images/team/02.jpg" alt="">
                         </div>
                         <div class="team-info">
-                            <h3>Mike Timobbs</h3>
+                        <h3>SAMUEL ESSAH</h3>
                             <span>Manager</span>
                         </div>  
                     </div>
@@ -418,7 +414,7 @@
                             <img class="img-responsive" src="welcome/images/team/03.jpg" alt="">
                         </div>
                         <div class="team-info">
-                            <h3>Remo Silvaus</h3>
+                        <h3>SAMUEL KWAMENA </h3>       
                             <span>Designer</span>
                         </div>  
                     </div>
@@ -429,7 +425,7 @@
                             <img class="img-responsive" src="welcome/images/team/04.jpg" alt="">
                         </div>
                         <div class="team-info">
-                            <h3>Niscal Deon</h3>
+                        <h3>DAVID TETTEHFIO</h3>
                             <span>Engineer</span>
                         </div>  
                     </div>
@@ -443,7 +439,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Best Plans</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <p class="text-center wow fadeInDown">Below are some plans you can choose from</p>
             </div>
 
             <div class="row">
@@ -453,10 +449,10 @@
                             <li class="plan-header">
                                 <div class="price-duration">
                                     <span class="price">
-                                        $45
+                                        Ghc100
                                     </span>
                                     <span class="duration">
-                                        per month
+                                        per week
                                     </span>
                                 </div>
 
@@ -464,11 +460,8 @@
                                     Basic
                                 </div>
                             </li>
-                            <li><p>Nique porriqua tquises dolorem
-							desumquia doloresamet consectet adipisci.
-							Masagni dolores eoquie voluptate sequi
-							saliquam quaerat voluptate.</p></li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Order Now!</a></li>
+                            <li><p>make flexible weekly payment</p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Login To Order</a></li>
                         </ul>
                     </div>
                 </div>
@@ -478,7 +471,7 @@
                             <li class="plan-header">
                                 <div class="price-duration">
                                     <span class="price">
-                                        $85
+                                        GHc20
                                     </span>
                                     <span class="duration">
                                         per month
@@ -489,11 +482,8 @@
                                     Standard
                                 </div>
                             </li>
-                             <li><p>Nique porriqua tquises dolorem
-							desumquia doloresamet consectet adipisci.
-							Masagni dolores eoquie voluptate sequi
-							saliquam quaerat voluptate.</p></li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Order Now!</a></li>
+                             <li><p>monthly payment Plan</p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Login To Order</a></li>
                         </ul>
                     </div>
                 </div>
@@ -503,7 +493,7 @@
                             <li class="plan-header">
                                 <div class="price-duration">
                                     <span class="price">
-                                        $125
+                                        Ghc125
                                     </span>
                                     <span class="duration">
                                         per month
@@ -514,11 +504,8 @@
                                     Gold
                                 </div>
                             </li>
-                             <li><p>Nique porriqua tquises dolorem
-							desumquia doloresamet consectet adipisci.
-							Masagni dolores eoquie voluptate sequi
-							saliquam quaerat voluptate.</p></li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Order Now!</a></li>
+                             <li><p>Another Best plan For you</p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Login To Order</a></li>
                         </ul>
                     </div>
                 </div>
@@ -539,11 +526,8 @@
                                     Platinum
                                 </div>
                             </li>
-                            <li><p>Nique porriqua tquises dolorem
-							desumquia doloresamet consectet adipisci.
-							Masagni dolores eoquie voluptate sequi
-							saliquam quaerat voluptate.</p></li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Order Now!</a></li>
+                            <li><p>more Flexible palne</p></li>
+                            <li class="plan-purchase"><a class="btn btn-primary" href="#">Login To Order</a></li>
                         </ul>
                     </div>
                 </div>
@@ -561,13 +545,13 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
                                 <p><img class="img-thumbnail" src="welcome/images/pic1.jpg" alt=""></p>
-                                <h4>John Deo</h4> 
-                                <p>Fusce non fermentum mi. Praesent vel lobortis elit. Nulla sodales, risus quis sollicitudin iaculis, felis dolor aliquet purus, eget elementum velit nunc eu dolor. Curabitur elit tellus.</p>
+                                <h4>Collins Wills</h4> 
+                                <p>We thank you all for doing busines with us</p>
                             </div>
                             <div class="item">
                                 <p><img class="img-thumbnail" src="welcome/images/pic2.jpg" alt=""></p>
-                                <h4>Gramth Larry</h4> 
-                                <p>Fusce non fermentum mi. Praesent vel lobortis elit. Nulla sodales, risus quis sollicitudin iaculis, felis dolor aliquet purus, eget elementum velit nunc eu dolor. Curabitur elit tellus, dictu.</p>
+                                <h4>Essah Mensah</h4> 
+                                <p>We promise to serve you better all the time</p>
                             </div>
                         </div>
 
@@ -593,7 +577,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Contact Us</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <p class="text-center wow fadeInDown">Contact us for more better offers</p>
             </div>
         </div>
     </section><!--/#contact-us-->
@@ -607,9 +591,9 @@
 				  <div class="col-sm-4 col-md-4">
                         <div class="contact-form"> 
                             <address>
-                              <strong>Amazing Company, Inc.</strong><br>
-                              12345 NewYork, Street 125<br>
-                              United States 94107<br>
+                              <strong>Aiti g2 Company Ltd</strong><br>
+                              12345 Accra, Street 125<br>
+                              Ghana 94107<br>
                               <abbr title="Phone">P:</abbr> (123) 456-7890
                             </address>
 					</div></div>
@@ -660,7 +644,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2018 Company Name. <a href="" target="_blank">DBC26.1 Group2</a> dbcg2.com
+                    &copy; 2018 Aiti dbc26.1g2. <a href="" target="_blank">DBC26.1 Group2</a> dbcg2.com
                 </div>
                 <div class="col-sm-6">
                     <ul class="social-icons">
